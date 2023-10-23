@@ -1,0 +1,509 @@
+{
+	"dataset_name": "onehand10k",
+	"paper_info": {
+		"author": "Wang, Yangang and Peng, Cong and Liu, Yebin",
+		"title": "Mask-pose cascaded cnn for 2d hand pose estimation from single color image",
+		"container": "IEEE Transactions on Circuits and Systems for Video Technology",
+		"year": "2018",
+		"homepage": "https://www.yangangwang.com/papers/WANG-MCC-2018-10.html"
+	},
+	"keypoint_info": {
+		"0": {
+			"name": "wrist",
+			"id": 0,
+			"color": [
+				255,
+				255,
+				255
+			],
+			"type": "",
+			"swap": ""
+		},
+		"1": {
+			"name": "thumb1",
+			"id": 1,
+			"color": [
+				255,
+				128,
+				0
+			],
+			"type": "",
+			"swap": ""
+		},
+		"2": {
+			"name": "thumb2",
+			"id": 2,
+			"color": [
+				255,
+				128,
+				0
+			],
+			"type": "",
+			"swap": ""
+		},
+		"3": {
+			"name": "thumb3",
+			"id": 3,
+			"color": [
+				255,
+				128,
+				0
+			],
+			"type": "",
+			"swap": ""
+		},
+		"4": {
+			"name": "thumb4",
+			"id": 4,
+			"color": [
+				255,
+				128,
+				0
+			],
+			"type": "",
+			"swap": ""
+		},
+		"5": {
+			"name": "forefinger1",
+			"id": 5,
+			"color": [
+				255,
+				153,
+				255
+			],
+			"type": "",
+			"swap": ""
+		},
+		"6": {
+			"name": "forefinger2",
+			"id": 6,
+			"color": [
+				255,
+				153,
+				255
+			],
+			"type": "",
+			"swap": ""
+		},
+		"7": {
+			"name": "forefinger3",
+			"id": 7,
+			"color": [
+				255,
+				153,
+				255
+			],
+			"type": "",
+			"swap": ""
+		},
+		"8": {
+			"name": "forefinger4",
+			"id": 8,
+			"color": [
+				255,
+				153,
+				255
+			],
+			"type": "",
+			"swap": ""
+		},
+		"9": {
+			"name": "middle_finger1",
+			"id": 9,
+			"color": [
+				102,
+				178,
+				255
+			],
+			"type": "",
+			"swap": ""
+		},
+		"10": {
+			"name": "middle_finger2",
+			"id": 10,
+			"color": [
+				102,
+				178,
+				255
+			],
+			"type": "",
+			"swap": ""
+		},
+		"11": {
+			"name": "middle_finger3",
+			"id": 11,
+			"color": [
+				102,
+				178,
+				255
+			],
+			"type": "",
+			"swap": ""
+		},
+		"12": {
+			"name": "middle_finger4",
+			"id": 12,
+			"color": [
+				102,
+				178,
+				255
+			],
+			"type": "",
+			"swap": ""
+		},
+		"13": {
+			"name": "ring_finger1",
+			"id": 13,
+			"color": [
+				255,
+				51,
+				51
+			],
+			"type": "",
+			"swap": ""
+		},
+		"14": {
+			"name": "ring_finger2",
+			"id": 14,
+			"color": [
+				255,
+				51,
+				51
+			],
+			"type": "",
+			"swap": ""
+		},
+		"15": {
+			"name": "ring_finger3",
+			"id": 15,
+			"color": [
+				255,
+				51,
+				51
+			],
+			"type": "",
+			"swap": ""
+		},
+		"16": {
+			"name": "ring_finger4",
+			"id": 16,
+			"color": [
+				255,
+				51,
+				51
+			],
+			"type": "",
+			"swap": ""
+		},
+		"17": {
+			"name": "pinky_finger1",
+			"id": 17,
+			"color": [
+				0,
+				255,
+				0
+			],
+			"type": "",
+			"swap": ""
+		},
+		"18": {
+			"name": "pinky_finger2",
+			"id": 18,
+			"color": [
+				0,
+				255,
+				0
+			],
+			"type": "",
+			"swap": ""
+		},
+		"19": {
+			"name": "pinky_finger3",
+			"id": 19,
+			"color": [
+				0,
+				255,
+				0
+			],
+			"type": "",
+			"swap": ""
+		},
+		"20": {
+			"name": "pinky_finger4",
+			"id": 20,
+			"color": [
+				0,
+				255,
+				0
+			],
+			"type": "",
+			"swap": ""
+		}
+	},
+	"skeleton_info": {
+		"0": {
+			"link": [
+				"wrist",
+				"thumb1"
+			],
+			"id": 0,
+			"color": [
+				255,
+				128,
+				0
+			]
+		},
+		"1": {
+			"link": [
+				"thumb1",
+				"thumb2"
+			],
+			"id": 1,
+			"color": [
+				255,
+				128,
+				0
+			]
+		},
+		"2": {
+			"link": [
+				"thumb2",
+				"thumb3"
+			],
+			"id": 2,
+			"color": [
+				255,
+				128,
+				0
+			]
+		},
+		"3": {
+			"link": [
+				"thumb3",
+				"thumb4"
+			],
+			"id": 3,
+			"color": [
+				255,
+				128,
+				0
+			]
+		},
+		"4": {
+			"link": [
+				"wrist",
+				"forefinger1"
+			],
+			"id": 4,
+			"color": [
+				255,
+				153,
+				255
+			]
+		},
+		"5": {
+			"link": [
+				"forefinger1",
+				"forefinger2"
+			],
+			"id": 5,
+			"color": [
+				255,
+				153,
+				255
+			]
+		},
+		"6": {
+			"link": [
+				"forefinger2",
+				"forefinger3"
+			],
+			"id": 6,
+			"color": [
+				255,
+				153,
+				255
+			]
+		},
+		"7": {
+			"link": [
+				"forefinger3",
+				"forefinger4"
+			],
+			"id": 7,
+			"color": [
+				255,
+				153,
+				255
+			]
+		},
+		"8": {
+			"link": [
+				"wrist",
+				"middle_finger1"
+			],
+			"id": 8,
+			"color": [
+				102,
+				178,
+				255
+			]
+		},
+		"9": {
+			"link": [
+				"middle_finger1",
+				"middle_finger2"
+			],
+			"id": 9,
+			"color": [
+				102,
+				178,
+				255
+			]
+		},
+		"10": {
+			"link": [
+				"middle_finger2",
+				"middle_finger3"
+			],
+			"id": 10,
+			"color": [
+				102,
+				178,
+				255
+			]
+		},
+		"11": {
+			"link": [
+				"middle_finger3",
+				"middle_finger4"
+			],
+			"id": 11,
+			"color": [
+				102,
+				178,
+				255
+			]
+		},
+		"12": {
+			"link": [
+				"wrist",
+				"ring_finger1"
+			],
+			"id": 12,
+			"color": [
+				255,
+				51,
+				51
+			]
+		},
+		"13": {
+			"link": [
+				"ring_finger1",
+				"ring_finger2"
+			],
+			"id": 13,
+			"color": [
+				255,
+				51,
+				51
+			]
+		},
+		"14": {
+			"link": [
+				"ring_finger2",
+				"ring_finger3"
+			],
+			"id": 14,
+			"color": [
+				255,
+				51,
+				51
+			]
+		},
+		"15": {
+			"link": [
+				"ring_finger3",
+				"ring_finger4"
+			],
+			"id": 15,
+			"color": [
+				255,
+				51,
+				51
+			]
+		},
+		"16": {
+			"link": [
+				"wrist",
+				"pinky_finger1"
+			],
+			"id": 16,
+			"color": [
+				0,
+				255,
+				0
+			]
+		},
+		"17": {
+			"link": [
+				"pinky_finger1",
+				"pinky_finger2"
+			],
+			"id": 17,
+			"color": [
+				0,
+				255,
+				0
+			]
+		},
+		"18": {
+			"link": [
+				"pinky_finger2",
+				"pinky_finger3"
+			],
+			"id": 18,
+			"color": [
+				0,
+				255,
+				0
+			]
+		},
+		"19": {
+			"link": [
+				"pinky_finger3",
+				"pinky_finger4"
+			],
+			"id": 19,
+			"color": [
+				0,
+				255,
+				0
+			]
+		}
+	},
+	"joint_weights": [
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0,
+		1.0
+	],
+	"sigmas": []
+}
